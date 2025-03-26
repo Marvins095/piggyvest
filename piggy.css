@@ -1,0 +1,186 @@
+#logo {
+    
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+a {
+    color: rgb(59, 47, 47);
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 38px;
+}
+
+.container {
+    display: flex;
+}
+
+.mother {
+    justify-content: space-evenly;
+}
+
+.child1 {
+    gap: 20px;
+}
+
+
+
+.child2{
+    
+    height: 50px;
+    margin-bottom: 35px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 20px;
+
+}
+
+.but2 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.but1 {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.center-div {
+    
+}
+
+body {
+    font-family: 'plus Jarkata sans', sans-serif;
+}
+
+body {
+    background-color:rgb(202, 197, 197) ;
+}
+
+.content {
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    
+}
+
+.content p {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'plus Jakarta Sans', sans-serif;
+}
+
+.content span {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+    
+}
+
+.card {
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 10px 10px 30px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card1 {
+    
+}
+
+.cards p {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.card-bottom {
+    display: flex;
+    
+}
+
+.card1:hover {
+    background-color: rgb(8, 8, 139);
+    color: white;
+}
+.card1 p, .text1 {
+    color:rgb(8, 8, 139); 
+}
+
+.card2:hover {
+    background-color: rgb(62, 162, 244); 
+    color: white;   
+}
+
+.card2 p, .text2 {
+    color: rgb(62, 162, 244);
+}
+ 
+.card3:hover {
+    background-color: green;
+    color: white;
+}
+
+.card3 p, .text3 {
+    color: green;
+}
+
+.card4:hover {
+    background-color:rgb(229, 72, 155) ;
+    color: white;
+}
+
+.card4 p, .text4 {
+    color: rgb(229, 72, 155);
+}
+
+.card5:hover {
+    background-color: black;
+    color: white;
+}
+
+.card6:hover {
+    background-color: rgb(255, 120, 60);
+    color: white;
+}
+
+.card6 p, .text6 {
+    color: rgb(255, 120, 60);
+}
+
+.card:hover p, .card:hover .text1, .card:hover .text2, .card:hover .text3, .card:hover .text4, .card:hover .text5, .card:hover .text6  {
+    color: white!important;
+}
+
+.icon2 {
+    display: none;
+}
+
+.card:hover .icon {
+    content: url(../images/subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
+}
+
+.card:hover .icon1 {
+    display: none;
+}
