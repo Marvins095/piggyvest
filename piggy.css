@@ -179,7 +179,7 @@ body {
 }
 
 .card:hover .icon {
-    content: url(../images/subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
+    content: url(./subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
 }
 
 .card:hover .icon1 {
